@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="" href="./styles/style.css">
+</head>
+<body>
+    <main>
+            <h1>Свяжитесь со мной</h1>
+        <form action="#">
+            <div class="field">
+                <label for="email" >E-mail</label>
+                <img src="./images/message.svg" alt="message icon">
+                <input type="email"  id="email" 
+                    name="email" value="" 
+                    placeholder="123@gmail.com"
+                    required>
+            </div>
+            <div class="field">
+                <img src="./images/telegram.svg" alt="telegram icon">
+                <label for="telegram">Телеграм</label>
+                <input type="text" id="telegram"  
+                    name="telegram" value="" 
+                    placeholder="@telegram" 
+                    required>
+            </div>
+            <div class="field">
+                <img src="./images/topic.svg" alt="topic icon">
+                <label for="topic">Тема*</label>
+                <select name="topic" id="topic" required>
+                    <option value="1">HTML</option>
+                    <option value="2">CSS</option>
+                    <option value="3">JavaScript</option>
+                </select>
+                </div>
+            <div class="field">
+                <label for="comment">Комментарии</label>
+                <textarea rows="10" id="comment" name="comment"  cols="30" 
+                    placeholder="Хочу купить ваши курсы для своих сотрудников и они станут очень умными."></textarea> </div>
+            <div>
+                <button type="submit">Отправить</button>
+            </div>
+            </div>
+        </form>
+    </main>
+    
+</body>
+</html>
